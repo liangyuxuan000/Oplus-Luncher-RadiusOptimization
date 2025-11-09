@@ -31,7 +31,7 @@
 
 ## ⚙️ 配置说明
 
-系统桌面最近任务卡片圆角初始值为`16dp`，模块更改圆角值为`26dp`，如需自定义圆角值，请在`app/src/main/java/com/radius/optimization/HookEntry.kt`中的`第27行`进行更改
+系统桌面最近任务卡片圆角初始值为`16dp`，模块更改圆角值为`26dp`，如需自定义圆角值，请在`/app/src/main/java/com/radius/optimization/HookEntry.kt`中的`第27行`进行更改
 
 
 ## 🛠️ 构建说明
