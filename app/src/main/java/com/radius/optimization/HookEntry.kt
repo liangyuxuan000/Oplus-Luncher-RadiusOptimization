@@ -24,7 +24,7 @@ object HookEntry : IYukiHookXposedInit {
                     val systemRes = Resources.getSystem()
                     val dmObj = systemRes.displayMetrics
                     val density = dmObj.density
-                    val newRadius = 26f * density  // 自定义圆角 (dp * density)
+                    val newRadius = 30f * density  // 自定义圆角 (dp * density)
                     result = newRadius
                 }
             }.onAllFailure {
